@@ -4,7 +4,6 @@
     "monitor": 1
   },
   "windowed": {
-    "enabled": false,
     "width": 1280,
     "height": 720
   }
