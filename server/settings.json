@@ -1,3 +1,11 @@
 {
-  "monitor": 1
+  "fullscreen": {
+    "enabled": true,
+    "monitor": 1
+  },
+  "windowed": {
+    "enabled": false,
+    "width": 1280,
+    "height": 720
+  }
 }
