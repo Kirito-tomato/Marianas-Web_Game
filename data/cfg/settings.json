@@ -1,0 +1,10 @@
+{
+  "fullscreen": {
+    "monitor": 1,
+    "enabled": false
+  },
+  "windowed": {
+    "width": 1280,
+    "height": 720
+  }
+}

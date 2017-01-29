@@ -1,7 +1,7 @@
 {
   "fullscreen": {
-    "monitor": 2,
-    "enabled": false
+    "monitor": 1,
+    "enabled": true
   },
   "windowed": {
     "width": 1280,

@@ -1,0 +1,44 @@
+{
+	"files": [
+		{
+			"type": "fonts",
+			"fonts": [
+			{
+				"font": "assets/fonts/arial.ttf",
+				"size": 30
+			}
+			]
+		}
+	],
+	"elements": [
+		{
+			"type": "background",
+			"background": "color",
+			"color": 200
+		},
+		{
+			"type": "button",
+			"name": "ls_button_back",
+			"x": 0,
+			"y": 620,
+			"width": 200,
+			"height": 100,
+			"radii": 0,
+			"text": "Back",
+			"font": 0,
+			"colors": {
+				"background": "default",
+				"default": 100,
+				"active": 50,
+				"highlight": 120,
+				"text": 255
+			},
+			"actions": [
+				{
+					"type": "loadUI",
+					"file": "levels/main_menu.json"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,99 @@
+{
+	"files": [
+		{
+			"type": "fonts",
+			"fonts": [
+			{
+				"font": "assets/fonts/arial.ttf",
+				"size": 18
+			}
+			]
+		},
+		{
+			"type": "strings",
+			"strings": [
+			{
+				"strings": "levels/data/credits.txt"
+			}
+			]
+		}
+	],
+	"elements": [
+		{
+			"type": "background",
+			"background": "color",
+			"color": 20
+		},
+		{
+			"type": "list",
+			"list": "text",
+			"data": 0,
+			"x": 640,
+			"y": 0,
+			"item-height": 30,
+			"y-value": "y",
+			"x-value": "x",
+			"data-import": "text",
+			"info": [
+				{
+					"name": "color",
+					"type": "int",
+					"value": 250
+				},
+				{
+					"name": "font",
+					"type": "int",
+					"value": 0
+				}
+			]
+		},
+		{
+			"type": "button",
+			"name": "cd_button_processing",
+			"x": 980,
+			"y": 670,
+			"width": 300,
+			"height": 50,
+			"radii": 0,
+			"text": "Made With Processing 3",
+			"font": 0,
+			"colors": {
+				"background": "default",
+				"default": 20,
+				"active": 15,
+				"highlight": 35,
+				"text": 200
+			},
+			"actions": [
+				{
+					"type": "link",
+					"link": "https://processing.org/"
+				}
+			]
+		},
+		{
+			"type": "button",
+			"name": "cd_button_back",
+			"x": 0,
+			"y": 620,
+			"width": 200,
+			"height": 100,
+			"radii": 0,
+			"text": "Back",
+			"font": 0,
+			"colors": {
+				"background": "default",
+				"default": 20,
+				"active": 15,
+				"highlight": 35,
+				"text": 200
+			},
+			"actions": [
+				{
+					"type": "loadUI",
+					"file": "levels/main_menu.json"
+				}
+			]
+		}
+	]
+}

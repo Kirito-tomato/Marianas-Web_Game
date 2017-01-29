@@ -1,0 +1,119 @@
+{
+	"files": [
+		{
+			"type": "fonts",
+			"fonts": [
+			{
+				"font": "assets/fonts/arial.ttf",
+				"size": 10
+			},
+			{
+				"font": "assets/fonts/arial.ttf",
+				"size": 20
+			}
+			]
+		}
+	],
+	"elements": [
+		{
+			"type": "background",
+			"background": "color",
+			"color": 200
+		},
+		{
+			"type": "button",
+			"name": "mm_button_play",
+			"x": 100,
+			"y": 100,
+			"width": 125,
+			"height": 50,
+			"radii": 2,
+			"text": "Play",
+			"font": 1,
+			"colors": {
+				"background": "default",
+				"default": 125,
+				"active": 100,
+				"highlight": 150,
+				"text": 255
+			},
+			"actions": [
+				{
+					"type": "loadUI",
+					"file": "levels/load_save.json"
+				}
+			]
+		},
+		{
+			"type": "button",
+			"name": "mm_button_credits",
+			"x": 100,
+			"y": 200,
+			"width": 125,
+			"height": 50,
+			"radii": 2,
+			"text": "Credits",
+			"font": 1,
+			"colors": {
+				"background": "default",
+				"default": 125,
+				"active": 100,
+				"highlight": 150,
+				"text": 255
+			},
+			"actions": [
+				{
+					"type": "loadUI",
+					"file": "levels/credits.json"
+				}
+			]
+		},
+		{
+			"type": "button",
+			"name": "mm_button_settings",
+			"x": 100,
+			"y": 300,
+			"width": 125,
+			"height": 50,
+			"radii": 2,
+			"text": "Settings",
+			"font": 1,
+			"colors": {
+				"background": "default",
+				"default": 125,
+				"active": 100,
+				"highlight": 150,
+				"text": 255
+			},
+			"actions": [
+				{
+					"type": "loadUI",
+					"file": "levels/settings_menu.json"
+				}
+			]
+		},
+		{
+			"type": "button",
+			"name": "mm_button_quit",
+			"x": 100,
+			"y": 400,
+			"width": 125,
+			"height": 50,
+			"radii": 2,
+			"text": "Quit",
+			"font": 1,
+			"colors": {
+				"background": "default",
+				"default": 125,
+				"active": 100,
+				"highlight": 150,
+				"text": 255
+			},
+			"actions": [
+				{
+					"type": "exit"
+				}
+			]
+		}
+	]
+}
