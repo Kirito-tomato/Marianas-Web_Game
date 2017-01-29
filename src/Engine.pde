@@ -20,8 +20,8 @@ boolean doesFileExist(String path, boolean clone){
     return true;
   } else {
     if (clone == true) {
-      println(" Cloning: " + dataPath(path) + " From: " + github.getString(path));
-      saveBytes("data/" + path, loadBytes(github.getString(path)));
+      println(" Cloning: " + dataPath(path) + "From: " + gameSrc + path);
+      saveBytes("data/" + path, loadBytes(gameSrc + path));
     }
     return false;
   }
@@ -75,8 +75,8 @@ void runActionArray(JSONArray actions) {
       case "link":
         link(action.getString("link"));
       break;
-      case "does-file-exist":
-        doesFileExist(action.getString("path"), action.getBoolean("clone"));
+      case "check-file":
+        doesFileExist(action.getString("file"), true);
       break;
     }
   }
@@ -156,7 +156,6 @@ class UI {
     for (int i = 0; i < ui.getJSONArray("elements").size(); i++) {
       addElement(ui.getJSONArray("elements").getJSONObject(i), true);
     }
-    printArray(Elements);
   }
   
   void redrawElements() {

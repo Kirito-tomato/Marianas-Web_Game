@@ -39,6 +39,10 @@
 			},
 			"actions": [
 				{
+					"type": "check-file",
+					"file": "levels/load_save.json"
+				},
+				{
 					"type": "loadUI",
 					"file": "levels/load_save.json"
 				}
@@ -63,6 +67,10 @@
 			},
 			"actions": [
 				{
+					"type": "check-file",
+					"file": "levels/credits.json"
+				},
+				{
 					"type": "loadUI",
 					"file": "levels/credits.json"
 				}
@@ -86,6 +94,10 @@
 				"text": 255
 			},
 			"actions": [
+				{
+					"type": "check-file",
+					"file": "levels/settings_menu.json"
+				},
 				{
 					"type": "loadUI",
 					"file": "levels/settings_menu.json"
