@@ -1,0 +1,9 @@
+* text=auto
+
+*.pde text
+
+*.png	binary
+*.zip 	bianary
+*.ttf	bianary
+
+*.json linguist-language=JSON
