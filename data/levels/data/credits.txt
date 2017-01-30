@@ -1,7 +1,7 @@
 Project Lead - midymyth
 Programming - midymyth
 Game Design - midymyth
-Scene Diretor - midymyth
+Scene Director - midymyth
 Music & Sound - midymyth
 ________________________________________________
 Processing - Ben Fry & The Processing Foundation
