@@ -1,4 +1,4 @@
-<div class="wrapper">
+<div class="wrapper"></div>
   <div class="hand hour"></div>
   <div class="hand minute"></div>
 </div>
